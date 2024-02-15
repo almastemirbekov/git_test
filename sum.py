@@ -5,6 +5,6 @@ def product(a, b):
         return (a + product(a, b-1))
     else:
         return 0
-a = int(input("Diiведите первое число: "))
-b = int(input("Diiведите второе число: "))
+a = int(input("Diiiведите первое число: "))
+b = int(input("Diiiведите второе число: "))
 print("Произведением двух чисел будет: ", product(a, b))
